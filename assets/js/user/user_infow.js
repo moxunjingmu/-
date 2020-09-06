@@ -39,7 +39,7 @@ $(function () {
                 layer.msg('更新用户信息成功！')
                 // 调用父页面的方法
                 window.parent.getUserData();
-                console.log(res);
+                // console.log(res);
             }
         })
     })
